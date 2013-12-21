@@ -11,7 +11,7 @@ public class Explosion extends BaseCE {
 		GameMode prev = sp.getGameMode();
 		sp.setGameMode(GameMode.CREATIVE);
 		sp.getWorld().createExplosion(strike1.getX(), strike1.getY(),
-				strike1.getZ(), 4F, false, false);
+				strike1.getZ(), 0F, false, false);
 		sp.setGameMode(prev);
 	}
 
@@ -24,7 +24,7 @@ public class Explosion extends BaseCE {
 		GameMode prev = sp.getGameMode();
 		sp.setGameMode(GameMode.CREATIVE);
 		sp.getWorld().createExplosion(strike2.getX(), strike2.getY(),
-				strike2.getZ(), 4F, false, false);
+				strike2.getZ(), 0F, false, false);
 		sp.setGameMode(prev);
 		sp.sendMessage("Teleported you to " + teleString
 				+ " with an explosion!");
