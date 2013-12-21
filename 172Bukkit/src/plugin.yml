@@ -9,6 +9,6 @@ commands:
     tpe:
         description: Teleports you with a explosion effect. Can be used in console when provided two players.
         usage: /tpe [player] <<otherplayer>|<x> <y> <z>>
-    tbps:
+    tpbs:
         description: Teleports you with a black smoke effect. Can be used in console when provided two players. 
-        usage: /tbps [player] <<otherplayer>|<x> <y> <z>>
+        usage: /tpbs [player] <<otherplayer>|<x> <y> <z>>
