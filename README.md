@@ -1,0 +1,1 @@
+This project is for [TeleportationExtended](http://dev.bukkit.org/bukkit-plugins/teleportation-extended) only.
