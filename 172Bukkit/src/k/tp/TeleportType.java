@@ -5,7 +5,7 @@ import org.bukkit.command.CommandExecutor;
 public enum TeleportType {
 	LIGHTNING("tpl", k.tp.executors.Lightning.class, "Lightning Teleport"), EXPLOSION(
 			"tpe", k.tp.executors.Explosion.class, "Explosion Teleport"), BLACKSMOKE(
-			"tps", k.tp.executors.BlackSmoke.class, "Black Smoke Teleport");
+			"tpbs", k.tp.executors.BlackSmoke.class, "Black Smoke Teleport");
 
 	public String cmd = "tpdef", name = "Default Teleport";
 	private Class<? extends CommandExecutor> exe = TPExtended.class;
