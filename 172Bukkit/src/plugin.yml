@@ -1,0 +1,14 @@
+main: k.tp.TPExtended
+name: TPExtended
+version: 1.2
+dev-url: http://dev.bukkit.org/bukkit-plugins/teleportation-extended/
+commands:
+    tpl:
+        description: Teleports you with a lightning effect. Can be used in console when provided two players.
+        usage: /tpl [player] <<otherplayer>|<x> <y> <z>>
+    tpe:
+        description: Teleports you with a explosion effect. Can be used in console when provided two players.
+        usage: /tpe [player] <<otherplayer>|<x> <y> <z>>
+    tps:
+        description: Teleports you with a black smoke effect. Can be used in console when provided two players. 
+        usage: /tps [player] <<otherplayer>|<x> <y> <z>>
