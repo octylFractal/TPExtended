@@ -1,6 +1,6 @@
 main: k.tp.TPExtended
 name: TPExtended
-version: 1.2.1
+version: 1.3
 dev-url: http://dev.bukkit.org/bukkit-plugins/teleportation-extended/
 commands:
     tpl:
