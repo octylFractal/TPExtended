@@ -16,6 +16,8 @@ local.properties
 .settings/
 .loadpath
 
+172LaunchFolder/
+
 # External tool builders
 .externalToolBuilders/
 
